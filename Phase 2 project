@@ -1,0 +1,77 @@
+Personal Blog on IBM cloud static web apps
+Introduction:
+      Let me give you a proper introduction to my personal blog on IBM Cloud static web apps. It's a platform where I'll be sharing my travel experiences and coding adventures. I chose IBM Cloud because it offers a reliable and scalable infrastructure for hosting my blog. With static web apps, I can create fast-loading and secure pages, making it a perfect fit for my content. I'm super excited to share my journeys and coding knowledge with everyone! 
+
+1. Problem: 
+                The need for a personal blog platform that is easy to set up, secure, and scalable.
+
+2. Solution:
+               Utilize IBM Cloud Static Web Apps, a serverless platform that combines static site hosting, serverless functions, and continuous deployment.
+
+3. Design:
+   - Front-end: Use popular static site generators like Jekyll or Hugo to create the blog's user interface and content structure.
+   - Back-end: Leverage serverless functions to handle dynamic functionalities like contact forms or user authentication.
+   - Database: Integrate with a cloud-based database service like IBM Cloudant or MongoDB for storing blog data.
+   - Authentication: Implement user authentication using IBM App ID or a third-party authentication service.
+   - Continuous Deployment: Set up a CI/CD pipeline using tools like GitHub Actions or Travis CI to automatically deploy changes to the blog.
+   - Security: Utilize built-in security features of IBM Cloud, such as SSL certificates and access controls, to ensure the blog is secure.
+
+To create a personal blog on IBM Cloud static web apps we should focus on 
+
+1. Set up an IBM Cloud account and create a static web app project.
+2. Create an HTML file for your blog homepage, and include sections for the header, navigation menu, main content, and footer.
+3. Style your blog using CSS to make it visually appealing.
+4. Create additional HTML files for different pages, such as an About page, Blog page, and Contact page. Link these pages in the navigation menu.
+5. Write informative and engaging blog posts in HTML format, and organize them in a blog section on your website.
+6. Deploy your static web app to IBM Cloud.
+7. Share your blog URL with others to showcase your coding knowledge and experiences.
+
+
+ here's a basic code structure for a personal blog on IBM Cloud static web apps:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Blog!</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <h2>My First Blog Post</h2>
+      <p>This is the content of my first blog post. Lorem ipsum dolor sit amet...</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Personal Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+```
+
+Sample output be like
+ 
+
+
+
+
+
+This is just a basic template to get you started. You can customize it further by adding more pages, styling with CSS, and integrating with a backend if needed. 
+
+
+ 
